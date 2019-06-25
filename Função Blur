@@ -1,0 +1,6 @@
+import cv2  
+img = cv2.imread('Dennis.jpg')   
+blurImg = cv2.blur(img,(5,5))  
+cv2.imshow('Dennis1',blurImg) 
+cv2.waitKey(0) 
+cv2.destroyAllWindows() 
