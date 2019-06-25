@@ -1,4 +1,6 @@
 import cv2  
+img = cv2.imread('DennisB.png', cv2.IMREAD_COLOR)
+cv2.imshow('Dennis', img)
 img = cv2.imread('DennisB.png')   
 blurImg = cv2.blur(img,(10,10))  
 cv2.imshow('DennisBer',blurImg) 
