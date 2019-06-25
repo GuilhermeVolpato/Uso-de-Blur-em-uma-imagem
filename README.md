@@ -1,1 +1,0 @@
-# Uso-de-Blur-em-uma-imagem
