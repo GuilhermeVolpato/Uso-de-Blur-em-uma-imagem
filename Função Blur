@@ -1,6 +1,7 @@
 import cv2  
-img = cv2.imread('Dennis.jpg')   
-blurImg = cv2.blur(img,(5,5))  
-cv2.imshow('Dennis1',blurImg) 
+img = cv2.imread('DennisB.png')   
+blurImg = cv2.blur(img,(10,10))  
+cv2.imshow('DennisBer',blurImg) 
 cv2.waitKey(0) 
 cv2.destroyAllWindows() 
+cv2.imwrite("DennisBer.png", img)
